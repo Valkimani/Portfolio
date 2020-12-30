@@ -1,0 +1,50 @@
+body {
+  background-color: #DCD9D4;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(
+      at 50% 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    );
+  background-blend-mode: soft-light, screen;
+}
+h1 {
+  color: teal;
+}
+.navbar-light .navbar-brand {
+  background-color: rgb(143, 221, 221);
+  color: white;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.form {
+  float: left;
+  background-color: white;
+  height: 75%;
+  width: 50%;
+  margin-left: 25%;
+}
+header h1 {
+  margin-left: 18px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  float: left;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* /* Added linked in and Git hub links/*  */
+.about-link .fa-linkedin,
+.about-link .fa-github {
+  color: #1F79C7;
+  font-size: 32px;
+  padding-top: 4px;
+}

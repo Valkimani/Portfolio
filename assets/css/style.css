@@ -1,0 +1,67 @@
+/*Added the background body to all css style sheets.*/
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+h1 {
+  color: teal;
+}
+.navbar-light .navbar-brand {
+  background-color: rgb(14, 192, 192);
+  color: white;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.form {
+  float: left;
+  background-color: white;
+  height: 75%;
+  width: 100%;
+  margin: 25px;
+}
+header h1 {
+  margin-left: 18px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  float: left;
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.images {
+  padding-bottom: 25px;
+}
+.text-center {
+  color: grey;
+}
+/* Submit button in the Contact page */
+button {
+  color: white;
+  background-color: teal;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  border: teal;
+  padding: 18px;
+}
+/*Added the nav bar and styling to all html pages.*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: rgb(116, 116, 117);
+  text-align: center;
+  height: 40px;
+  border-top: rgb(44, 184, 184) solid 5px;
+}
+.contact-left-agile {
+  padding-left: 5%;
+}
